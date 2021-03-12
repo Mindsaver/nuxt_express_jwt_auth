@@ -45,6 +45,10 @@ jobs:
             - name: Run linter 👀
               run: npm run lint
               working-directory: ${{env.working-directory}}
+
+            - name: Build Nuxt 🛠
+              run: npm run build
+              working-directory: ${{env.working-directory}}
     backend:
         runs-on: ${{ matrix.os }}
         env:
