@@ -1,0 +1,19 @@
+{
+    "name": "nuxt_express_jwt_auth",
+    "version": "1.0.0",
+    "description": "Login/Register boilerplate for a Vue/Nuxt frontend and a Express backend using passport and mongodb to authenticate via JWT.",
+    "scripts": {
+        "dev": "concurrently \"cd ./backend/ && npm run dev\" \"cd ./frontend/ && npm run dev\""
+    },
+    "keywords": [
+        "vue",
+        "nuxt",
+        "auth",
+        "jwt"
+    ],
+    "author": "Mindsaver",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^6.0.0"
+    }
+}
