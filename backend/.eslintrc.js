@@ -3,8 +3,8 @@ module.exports = {
   env: {
     node: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
-    parser: 'babel-eslint',
     ecmaVersion: 6,
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
@@ -13,5 +13,12 @@ module.exports = {
   extends: ['prettier', 'plugin:prettier/recommended'],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
 }
