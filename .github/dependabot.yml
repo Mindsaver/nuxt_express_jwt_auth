@@ -7,6 +7,7 @@ updates:
           interval: daily
           time: '00:00'
       open-pull-requests-limit: 10
+      target_branch: 'develop'
       reviewers:
           - mindsaver
       assignees:
@@ -22,6 +23,7 @@ updates:
           interval: daily
           time: '00:00'
       open-pull-requests-limit: 10
+      target_branch: 'develop'
       reviewers:
           - mindsaver
       assignees:
@@ -37,6 +39,7 @@ updates:
           interval: daily
           time: '00:00'
       open-pull-requests-limit: 10
+      target_branch: 'develop'
       reviewers:
           - mindsaver
       assignees:
